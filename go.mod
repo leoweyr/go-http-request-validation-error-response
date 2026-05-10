@@ -1,4 +1,4 @@
-module go.leoweyr.com/go-http-api-contract-io
+module go.leoweyr.com/go-http-api-contract-io/v2
 
 go 1.26.0
 
