@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [2.0.1](https://github.com/leoweyr/go-http-api-contract-io/compare/v2.0.0...v2.0.1) (2026-05-10)
+### DevOps
+
+* align module path with semantic version v2 ([f52ee16](https://github.com/leoweyr/go-http-api-contract-io/commit/f52ee16a8f1ddafe72733f42aeb62a4895ed0b06)) [@leoweyr](https://github.com/leoweyr)
+
+
+
 # [2.0.0](https://github.com/leoweyr/go-http-api-contract-io/compare/v1.0.0...v2.0.0) (2026-05-10)
 ### Features
 
