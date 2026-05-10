@@ -1,4 +1,4 @@
-module go.leoweyr.com/go-http-request-validation-error-response
+module go.leoweyr.com/go-http-api-contract-io
 
 go 1.26.0
 

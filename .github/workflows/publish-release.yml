@@ -12,6 +12,6 @@ jobs:
     uses: leoweyr/github-release-workflow/.github/workflows/reusable-publish-release.yml@develop
     with:
       trb-repository: 'ODCLAB/odyssey-plan'
-      trb-project-node-name: 'Go Http Request Validation Error Response'
+      trb-project-node-name: 'Go HTTP API Contract IO'
     secrets:
       ACCESS_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
