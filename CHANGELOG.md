@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+# [2.0.0](https://github.com/leoweyr/go-http-api-contract-io/compare/v1.0.0...v2.0.0) (2026-05-10)
+### Features
+
+* add request reader and response writer ([8192e53](https://github.com/leoweyr/go-http-api-contract-io/commit/8192e53c3ff75685a0c276b71cdc05b7e1a99421)) [@leoweyr](https://github.com/leoweyr)
+
+
+### Documentation
+
+* add standardized error response schema ([9dcbc82](https://github.com/leoweyr/go-http-api-contract-io/commit/9dcbc8284c39537bb620a9d8ee984cb50d49ec32)) [@leoweyr](https://github.com/leoweyr)
+* update project name and description ([4c2890b](https://github.com/leoweyr/go-http-api-contract-io/commit/4c2890b3c028b193765bf8e070429498062bd0c0)) [@leoweyr](https://github.com/leoweyr)
+
+
+### Miscellaneous Tasks
+
+* rename project to Go HTTP API Contract IO ([7b8831f](https://github.com/leoweyr/go-http-api-contract-io/commit/7b8831fb70cff2ba5951d23d53097d8a605b70a0)) [@leoweyr](https://github.com/leoweyr)
+
+
+
 # [1.0.0] (2026-04-25)
 ### Features
 
