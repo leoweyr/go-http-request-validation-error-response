@@ -10,19 +10,23 @@ func NewErrorResponseBuilder() *ErrorResponseBuilder {
 	return errorResponseBuilder
 }
 
-func (erb *ErrorResponseBuilder) buildValidationErrorBody(validationDetails map[string]string) ErrorBody {
+func (errorResponseBuilder *ErrorResponseBuilder) buildErrorBody(message string, details map[string]string) ErrorBody {
 	var errorBody ErrorBody = ErrorBody{
-		Message: validationFailedMessage,
-		Details: validationDetails,
+		Message: message,
+		Details: details,
 	}
 
 	return errorBody
 }
 
-func (erb *ErrorResponseBuilder) BuildValidationFailedErrorResponse(validationDetails map[string]string) ErrorResponse {
-	var validationErrorResponse ErrorResponse = ErrorResponse{
-		Error: erb.buildValidationErrorBody(validationDetails),
+func (errorResponseBuilder *ErrorResponseBuilder) BuildErrorResponse(message string, details map[string]string) ErrorResponse {
+	var errorResponse ErrorResponse = ErrorResponse{
+		Error: errorResponseBuilder.buildErrorBody(message, details),
 	}
 
-	return validationErrorResponse
+	return errorResponse
+}
+
+func (errorResponseBuilder *ErrorResponseBuilder) BuildValidationFailedErrorResponse(validationDetails map[string]string) ErrorResponse {
+	return errorResponseBuilder.BuildErrorResponse(validationFailedMessage, validationDetails)
 }
